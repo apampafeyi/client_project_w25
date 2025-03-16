@@ -4,16 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Maize & Blue Cupboard</title>
+    <link rel="stylesheet" href="html5reset.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <header>
         <img src="images/U-M_Logo-Horizontal-Hex.png" alt="U-M Logo">
-            <a href = "">Skip to Main Content</a>
+        <a href="#main" class="skip-link">Skip to Main Content</a>
+
         <nav>
             <ul>
                 <li><a href = "index.html">Home</a></li>
-                <li><a href = "page_1.html">Maize & Blue Cupboard</a></li>
+                <li><a href = "page_1.html" class="active">Maize & Blue Cupboard</a></li>
                 <li><a href = "page_2.html">CEW+</a></li>
                 <li><a href = "page_3.html">CAPS</a></li>
             </ul>
@@ -21,7 +24,7 @@
         <h1>Welcome to Maize & Blue Cupboard</h1>
             <img src="images/grocerybag.png" alt="grocery bag with fresh produce">
     </header>
-    <main>
+    <main id="main" class="grid-container">
         <div>
             <h2>Our Mission</h2>
             <p>The Maize & Blue Cupboard ensures members of the University of Michigan community—whether on a tight budget or physically restrained from getting to a grocery store—receive equitable access to healthy, nutritious, and nourishing food and the ability to prepare it for themselves or others.</p>
@@ -96,7 +99,6 @@
         </footer>
         </main>
 
-   
 </body>
 
 </html>

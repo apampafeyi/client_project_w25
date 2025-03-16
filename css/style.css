@@ -1,0 +1,118 @@
+/* General Styles */
+body {
+    background-color: #fffef2; /* Light Background */
+    color: #333;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Headings */
+h1 {
+    color: #00274C; /* UM Blue */
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #00274C;
+    font-size: 1.5rem;
+    background-color: #FFCB05; /* UM Maize */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+h3 {
+    color: #00274C;
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+
+/* Skip to Main Content */
+.skip-link {
+    position: absolute;
+    left: -9999px;
+    top: -9999px;
+    background-color: #FFCB05; /* UM Maize */
+    color: #00274C; /* UM Blue */
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.skip-link:focus {
+    left: 10px;
+    top: 10px;
+    z-index: 100;
+}
+
+/* Navigation */
+nav {
+    background-color: white;
+    border-bottom: 3px solid #00274C;
+    padding: 0.5rem;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    list-style: none;
+    padding: 0;
+}
+
+nav a {
+    color: #00274C;
+    padding: 10px 15px;
+    font-size: 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 2px solid transparent;
+}
+
+nav a:hover, nav .active {
+    background-color: #00274C;
+    color: #FFCB05;
+    border: 2px solid #FFCB05;
+}
+
+/* Images */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Main Content */
+main {
+    padding: 20px;
+}
+
+/* Grid Layout */
+.grid-container {
+    display: grid;
+    gap: 20px;
+}
+
+.page-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+/* Footer */
+footer {
+    background-color: #00274C;
+    color: #FFCB05;
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+}
+
+footer a {
+    color: #FFCB05;
+    text-decoration: underline;
+}
